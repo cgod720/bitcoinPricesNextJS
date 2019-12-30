@@ -1,10 +1,11 @@
-import Nav from "../components/Nav"
+import Container from "../components/Container"
 
 const Index = () => (
-    <div>
-        
-        <h1>Hello System!</h1>
-    </div>
+    <Container>
+        <div>
+            <h1>Hello System!</h1>
+        </div>
+    </Container>
 )
 
 

@@ -1,11 +1,11 @@
-import Nav from '../components/Nav'
+import Container from '../components/Container'
 
-const Index = () => (
-    <div>
-        <Nav />
+const About = () => (
+    <Container>
+
         <h4>this is the about page yo</h4>
-    </div>
+    </Container>
 )
 
 
-export default Index;
+export default About;
