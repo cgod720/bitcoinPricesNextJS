@@ -1,11 +1,8 @@
-import Link from "next/link"
+import Nav from '../components/Nav'
 
 const Index = () => (
     <div>
-        <nav>
-            <Link href="/"><a>Home</a></Link>
-            <Link href="/about"><a>About</a></Link>
-        </nav>
+        <Nav />
         <h4>this is the about page yo</h4>
     </div>
 )
