@@ -4,7 +4,7 @@ import Container from "../components/Container"
 const Index = (props) => (
     <Container>
         <div>
-            <h1>Bitcoin: ${props.bpi.bpi.USD.rate}</h1>
+            <h1>Bitcoin: ${props.twoDec}</h1>
             
         </div>
     </Container>
@@ -14,9 +14,12 @@ const Index = (props) => (
 Index.getInitialProps = async function(){
     const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
     const data = await res.json()
+    let twoDec = data.bpi.USD.rate_float
+    let thirdtime = parseFloat(twoDec).toFixed(2)
 
     return {
-        bpi: data
+        bpi: data,
+        twoDec: thirdtime
     }
 }
 
