@@ -2098,7 +2098,7 @@ const About = () => __jsx(_components_Container__WEBPACK_IMPORTED_MODULE_1__["de
     lineNumber: 6
   },
   __self: undefined
-}, "this is the about page yo"));
+}, "This is a simple project built using Next.js"));
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 

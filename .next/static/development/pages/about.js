@@ -9220,7 +9220,7 @@ var About = function About() {
       lineNumber: 6
     },
     __self: this
-  }, "this is the about page yo"));
+  }, "This is a simple project built using Next.js"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);

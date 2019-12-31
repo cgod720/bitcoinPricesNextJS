@@ -3,7 +3,7 @@ import Container from '../components/Container'
 const About = () => (
     <Container>
 
-        <h4>this is the about page yo</h4>
+        <h4>This is a simple project built using Next.js</h4>
     </Container>
 )
 
